@@ -1,5 +1,5 @@
 #!/bin/bash
-#run buildlife.sh /home/life/life-chroot /home/life-extract
+#run buildlife.sh /home/life/life-chroot /home/life/life-extract
 
 #cleanup
 rm $1/var/lib/apt/lists/* $1/var/cache/apt/*.bin $1/root/.bash_history $1/var/log/dpkg.log $1/var/log/apt/*
